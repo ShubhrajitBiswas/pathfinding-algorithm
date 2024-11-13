@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+
+body,html {
+  height: 100%;
+}
+.header__title {
+  color: white;
+}
+.footer__author{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; /* This makes it semi-bold */
+  color: white;
+}
+.header__title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; /* This makes it semi-bold */
+  color: white; /* Assuming you still want white text */
+  padding-top: 15px;
+}
+
+
+body {
+  font-family: 'Julius Sans One', sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  background: linear-gradient(135deg, 
+    rgb(9, 9, 27) 0%,    /* Dark Blue */
+    rgb(39, 8, 39) 50%,  /* Dark Pink */
+    rgb(92, 84, 84) 100% /* White */
+  );
+
+}
