@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pathfinding-algorithm/static/css/main.55fecd1c.css",
+    "main.js": "/pathfinding-algorithm/static/js/main.3be0f89f.js",
+    "index.html": "/pathfinding-algorithm/index.html",
+    "main.55fecd1c.css.map": "/pathfinding-algorithm/static/css/main.55fecd1c.css.map",
+    "main.3be0f89f.js.map": "/pathfinding-algorithm/static/js/main.3be0f89f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55fecd1c.css",
+    "static/js/main.3be0f89f.js"
+  ]
+}
