@@ -15,7 +15,7 @@
 
   &__select {
     height: 100%;
-    width: 200px;
+    width: 150px;
     margin-right: 20px;
     border-radius: none;
     font-family: inherit;
@@ -26,12 +26,13 @@
     cursor: pointer;
     -webkit-appearance: none;
     appearance: none;
-    background: $oc-indigo-5;
+    background: #1F8A70;
     background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
     background-repeat: no-repeat;
-    background-position-x: 100%;
-    background-position-y: 5px;
-    padding-left: 10px;
+    background-position-x: 90%;
+    background-position-y: 2px;
+    padding-left: 30px;
+    box-shadow: 0 3px 3px 0 $oc-blue-3;
 
     &:disabled {
       @extend %disabled;
@@ -42,10 +43,11 @@
     $button: &;
     display: flex;
     font-family: inherit;
-    font-weight: bold;
+    font-weight: inherit;
     font-size: inherit;
     cursor: pointer;
-    background: $oc-blue-5;
+    background: #1F8A70;
+
     appearance: none;
     -webkit-appearance: none;
     border: none;
@@ -58,14 +60,15 @@
 
     &--pause {
       @extend #{$button};
-      background-color: $oc-teal-5;
+      background-color:#1F8A70;;  // Teal Blue
     }
-
+    
     &--usage {
       @extend #{$button};
-      background-color: $oc-green-6;
-      box-shadow: 0 3px 3px 0 $oc-green-3;
+      background-color:#1F8A70; ;  // Green shade (adjust as needed)
+      box-shadow: 0 3px 3px 0 #218838;  // Shadow with darker green
     }
+    
 
     &:last-child {
       margin-right: 0;
