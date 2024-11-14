@@ -1,6 +1,5 @@
 {
   "name": "pathfinding-visualizer",
-  "homepage": "http://ShubhrajitBiswas.github.io/pathfinding-algorithm",
   "version": "0.1.0",
   "license": "MIT",
   "private": true,
